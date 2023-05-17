@@ -1,0 +1,166 @@
+.bg-dark-red{
+  background-color: darkred;
+}
+
+.bg-peach{
+  background-color: rgb(200, 120, 125);
+}
+
+.bg-peach-50{
+  background-color: rgb(200, 120, 125);
+  opacity: .5; /*50% transparent*/
+}
+
+.bg-purple{
+  background-color: rgba(102, 65, 138, 0.9);
+  /*transparency is at 90%*/
+}
+
+
+.bg-blue{
+  background-color: #00c3ee;
+}
+
+.w-50{
+  width: 50%;
+}
+.w-400px{
+  width: 400px;
+}
+
+.h-350px{
+  height: 350px;
+}
+
+.h-50{
+  height: 50%;
+}
+
+
+div{
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.m-10px{
+  margin: 10px;
+}
+
+.m-10px-20px{
+  margin: 10px 20px;
+}
+
+.m-10px-20px-30px{
+  margin: 10px 20px 30px;
+}
+
+.m-10px-20px-30px-40px{
+  margin: 10px 20px 30px 40px;
+}
+
+
+
+
+
+.mt-10px{
+  margin-top: 10px;
+}
+
+.mr-20px{
+  margin-right: 20px;
+}
+
+.mb-30px{
+  margin-bottom: 30px;
+}
+
+.ml-40px{
+  margin-left: 40px;
+}
+
+.p-10px{
+  padding: 10px;
+}
+
+.p-10px-20px{
+  padding: 10px 20px;
+}
+
+.p-10px-20px-30px{
+  padding: 10px 20px 30px;
+}
+
+.p-10px-20px-30px-40px{
+  padding: 10px 20px 30px 40px;
+}
+
+.pt-10px{
+  padding-top: 10px;
+}
+
+.pr-20px{
+  padding-right: 20px;
+}
+
+.pb-30px{
+  padding-bottom: 30px;
+}
+
+.pl-40px{
+  padding-left: 40px;
+}
+
+.solid{
+  border: 10px solid tomato;
+}
+
+.dotted{
+  border: 10px dotted teal;
+}
+
+.dashed{
+  border: 10px dashed crimson
+}
+
+.double{
+  border: 10px double seagreen
+}
+
+.groove{
+  border: 10px groove purple
+}
+
+.ridge{
+  border: 10px ridge gray
+}
+
+.inset{
+  border: 10px inset dodgerblue;
+}
+
+.outset{
+  border: 10px outset goldenrod;
+}
+
+.radius{
+  border: 10px solid black;
+  border-radius: 50px;
+}
+
+.bt-dashed{
+  border-top: 10px dashed darkred;
+}
+
+.br-dotted{
+  border-bottom: 10px ddotted pink;
+}
+
+.bb-double{
+  border-bottom: 10px double darkorange
+}
+
+.bl-solid{
+  border-left: 10px solid coral
+}
+
+

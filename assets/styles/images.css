@@ -1,0 +1,81 @@
+div{
+  width: 100%;
+  height: 300px;
+  border: 2px solid darkred;
+  margin-bottom: 25px;
+}
+
+.bg-no-repeat{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+}
+.bg-repeat-y{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat-y;
+}
+
+.bg-repeat-x{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat-x;
+}
+ 
+.bg-repeat{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat; /*default value*/
+}
+
+.bg-size-cover
+{
+  background-image: url(../images/dot.jpg);
+  background-size: cover;
+}
+
+.bg-size-contain
+{
+  background-image: url(../images/dot.jpg);
+  background-size: contain;
+}
+
+.bg-size-w300-h500{
+  background-image: url('../images/dot.jpg');
+  background-size: 300px 500px;
+}
+
+
+.bg-all{
+  background-image: url('../images/dot.jpg');
+  background-repeat: no-repeat;
+  background-color: aquamarine;
+
+}
+
+
+#background-position-1{
+    background-position: center;
+   
+}
+
+#background-position-2{
+  background-position: left top;
+}
+
+#background-position-3{
+  background-position: right bottom;
+}
+
+#background-position-4{
+  background-position: 50% 50%;
+}
+
+#attachment-scroll{
+  background-attachment: scroll;
+  font-size:2em;
+  overflow: auto;
+}
+
+
+#bg-shorthand{
+  background: black url('../images/dot.jpg') no-repeat scroll center center;
+  height: 300px;
+
+}
